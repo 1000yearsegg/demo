@@ -1,2 +1,19 @@
 {
+    "autoHeader": {
+        "header": {
+            "Author": "Sanches",
+            "Date": {
+                "type": "createTime",
+                "format": "YYYY-MM-DD hh:mm:ss"
+            },
+            "Last Modified by": {
+                "type": "modifier",
+                "value": "Sanches"
+            },
+            "Last Modified time": {
+                "type": "modifyTime",
+                "value": "YYYY-MM-DD hh:mm:ss"
+            }
+        }
+    }
 }
