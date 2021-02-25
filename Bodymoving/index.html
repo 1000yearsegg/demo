@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>bodymoving</title>
+    <script src="lottie.js"></script>
+    <style>
+        /* .animation {
+            width: 50px;
+            height: 50px;
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="animation" id="animation"></div>
+    <script>
+        bodymovin.loadAnimation({
+            path: 'loading.json', //json文件路径
+            loop: true,
+            autoplay: true,
+            renderer: 'canvas', //渲染方式，有"html"、"canvas"和"svg"三种
+            container: document.getElementById('animation')
+        });
+        //bodymovin.js的完整api文档见GitHub项目首页(https://github.com/bodymovin/bodymovin)
+    </script>
+</body>
+
+</html>
